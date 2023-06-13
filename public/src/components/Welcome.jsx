@@ -14,7 +14,7 @@ export default function Welcome() {
     <Container>
       <img src={Robot} alt="" />
       <h1>
-        Welcome, <span>{userName}!</span>
+        Welcome, <span>{userName} !</span>
       </h1>
       <h3>Please select a chat to start messaging.</h3>
     </Container>
@@ -31,6 +31,6 @@ const Container = styled.div`
     height: 20rem;
   }
   span {
-    color: #4e0eff;
+    color: #A90BD4;
   }
 `;
