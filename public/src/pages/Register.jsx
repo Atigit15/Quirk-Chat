@@ -6,6 +6,7 @@ import Logo from "../assets/logo.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { registerRoute } from "../utils/APIRoutes";
+import SocialLoginButtons from "../components/SocialLoginButtons";
 
 export default function Register() {
   const navigate = useNavigate();
@@ -117,7 +118,8 @@ export default function Register() {
             name="confirmPassword"
             onChange={(e) => handleChange(e)}
           />
-          <button type="submit">Create User</button>
+          <button type="submit"className="btn">Create User</button>
+          <SocialLoginButtons></SocialLoginButtons>
           <span>
             Already have an account ? <Link to="/login">Login.</Link>
           </span>
@@ -171,7 +173,7 @@ const FormContainer = styled.div`
       outline: none;
     }
   }
-  button {
+  .btn {
     background-color: #EA2088;
     color: white;
     padding: 1rem 2rem;
