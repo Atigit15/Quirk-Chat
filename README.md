@@ -27,6 +27,7 @@ npm install
 MONGODB_URI=your-mongodb-connection-string
 PORT=port on which you wish to run your server
 REACT_APP_LOCALHOST_KEY="chat-app-current-user"
+ORIGIN=domain-name-string ("http://localhost:3000" if not hosted)
 ```
 4. Start the developement server
 ```bash
