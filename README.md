@@ -1,11 +1,13 @@
 # Quirk-Chat
 Quirk Chat is a real-time chat application developed using React, Node.js, Socket.io, and MongoDB. It provides users with a seamless chatting experience, along with user authentication and a user-friendly interface. With Quirk Chat, users can connect with each other instantly, engage in conversations, and build meaningful connections.
 # Features
-- Real-time Chatting: Quirk Chat leverages the power of Socket.io to enable real-time communication between users. Messages are instantly delivered to recipients, ensuring smooth and responsive chatting experience.
+- Real-time Chatting: Quirk Chat leverages the power of 'socket.io' to enable real-time communication between users. Messages are instantly delivered to recipients, ensuring smooth and responsive chatting experience.
 
 - User Authentication: The application includes a secure login and signup system. Users can create accounts, log in with their credentials, and access their personal chat rooms. Authentication is handled using secure encryption techniques.
 
-- User-Friendly Interface: Quirk Chat offers an intuitive and visually appealing interface, making it easy for users to navigate and interact with the application. The design focuses on simplicity and usability, providing a pleasant experience for all users.
+- Sign in with Google: Users can easily sign in via their google accounts. This was achieved by using firebase authentication. After logging in with google, user must select their username and avatar. The application dynamically checks wether the current username is valid, the server calls are minimised by incoporating debouncing.
+
+- User-Friendly Interface: Quirk Chat offers an responsive, intuitive and visually appealing interface, making it easy for users to navigate and interact with the application. The design focuses on simplicity and usability, providing a pleasant experience for all users.
 
 - Persistent Data Storage: MongoDB is utilized as the database for Quirk Chat, ensuring reliable and efficient storage of user information and chat messages. The use of MongoDB allows for scalability and flexibility, accommodating the growth of the application and its user base.
 # Screenshots
@@ -26,7 +28,7 @@ npm install
   ```bash
 MONGODB_URI=your-mongodb-connection-string
 PORT=port on which you wish to run your server
-REACT_APP_LOCALHOST_KEY="chat-app-current-user"
+REACT_APP_LOCALHOST_KEY="chat-app-current-user" 
 ORIGIN=domain-name-string ("http://localhost:3000" if not hosted)
 ```
 4. Start the developement server
@@ -44,8 +46,13 @@ npm start
 
 - MongoDB: A NoSQL database that offers scalability and flexibility for storing and retrieving user information and chat messages. MongoDB integrates seamlessly with Quirk Chat's Node.js backend.
 
+- MultiAvatar: An external API. Multiavatar is a multicultural avatar generator, which is free to use and open source.
+
+# Deployment
+The site's server code is uploaded on render.com and frontend (public or client) code is uploaded through netlify.
+
 # License
 Quirk Chat is open source and available under the MIT License.
 
-Thank you for choosing Quirk Chat! We hope you enjoy using our real-time chat application and have meaningful conversations with others.
+A special thanks to Kishan Sheth. Thank you for choosing Quirk Chat! We hope you enjoy using our real-time chat application and have meaningful conversations with others.
 
