@@ -1,6 +1,6 @@
 ![Quirk Chat Screenshot](screenshots/ss-login.png)
 # Quirk-Chat⚡
-Quirk Chat is a real-time chat application developed using React, Node.js, Socket.io, and MongoDB. It provides users with a seamless chatting experience, along with user authentication and a user-friendly interface. With Quirk Chat, users can connect with each other instantly, engage in conversations, and build meaningful connections.
+Quirk Chat is a real-time chat application developed using React, Node.js, Socket.io, and MongoDB. It provides users with a seamless chatting experience, along with user authentication and a user-friendly interface. With Quirk Chat, users can connect instantly, engage in conversations, and build meaningful connections.
 
 # Demo💻
 <p align="center"><img src="screenshots/gif1.gif"></p>
@@ -8,7 +8,7 @@ Quirk Chat is a real-time chat application developed using React, Node.js, Socke
 # Features💫
 - **Real-time Chatting**: Quirk Chat leverages the power of 'socket.io' to enable real-time communication between users. Messages are instantly delivered to recipients, ensuring a smooth and responsive chatting experience.
 
--** User Authentication**: The application includes a secure login and signup system. Users can create accounts, log in with their credentials, and access their personal chat rooms. Authentication is handled using secure encryption techniques.
+- **User Authentication**: The application includes a secure login and signup system. Users can create accounts, log in with their credentials, and access their chat rooms. Authentication is handled using secure encryption techniques.
 
 - **Sign in with Google:** Users can easily sign in via their Google accounts. This was achieved by using Firebase authentication. After logging in with Google, the user must select their username and avatar. The application dynamically checks whether the current username is valid, and the server calls are minimized by incorporating debouncing.
 
