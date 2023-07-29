@@ -3,7 +3,10 @@ Welcome to Quirk Chat⚡!
 <p align="center"><img src="screenshots/cover-pic.png" alt="app poster" height="400" width="700"></p>
 
 # Demo💻
-![Quirk Chat Screenshot](screenshots/ss-login.png)
+
+https://github.com/Atigit15/Quirk-Chat/assets/77894729/d3f84e6d-3272-4cd0-bd71-062c19a9a846
+
+
 
 # Features💫
 - **Real-time Chatting**: Quirk Chat leverages the power of 'socket.io' to enable real-time communication between users. Messages are instantly delivered to recipients, ensuring a smooth and responsive chatting experience.
