@@ -6,7 +6,7 @@ Welcome to Quirk Chat⚡!
 
 https://github.com/Atigit15/Quirk-Chat/assets/77894729/d3f84e6d-3272-4cd0-bd71-062c19a9a846
 
-
+Note that it can time to load the dashboard once you click Log in, please be patient :)
 
 # Features💫
 - **Real-time Chatting**: Quirk Chat leverages the power of 'socket.io' to enable real-time communication between users. Messages are instantly delivered to recipients, ensuring a smooth and responsive chatting experience.
