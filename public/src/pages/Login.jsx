@@ -90,6 +90,13 @@ export default function Login() {
           <span>
             Don't have an account ? <Link to="/register">Create One.</Link>
           </span>
+          <div className="guest">
+            <h2>Guest Credentials :</h2>
+            <br />
+            <p>Username: JayZ &emsp;&emsp;&emsp; Password: BrooklynKing123</p>
+            {/* <br /> */}
+            <p>Username: KanyeWest &nbsp; Password: FashionGod123</p>
+          </div>
         </form>
       </FormContainer>
       <ToastContainer />
@@ -117,6 +124,12 @@ const FormContainer = styled.div`
       color: white;
       text-transform: uppercase;
     }
+  }
+
+  .guest{
+    color: #fff;
+    // margin: 1rem;
+    // line-spacing: 1em;
   }
 
   form {
